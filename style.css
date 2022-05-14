@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Open+Sans&family=Ubuntu&display=swap');
+            /* font-family: 'Encode Sans Condensed', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            font-family: 'Abel', sans-serif; */
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+	
+	width: 6px;
+  }
+/* ::-webkit-scrollbar:hover {
+	width: 8px;
+  } */
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+	background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	width: 8px;
+	background: #555; 
+  }
+
+            body{
+                font-family: 'Encode Sans Condensed', sans-serif;
+                line-height: 1.7rem;
+
+            }
+            #nav-bar{
+                width: 25%;;
+                height: 100%;
+                top: 0;
+                left: 0;
+                border-right: 3px solid gray;
+                position: fixed;
+              background-color: white;
+                padding-top: 20px;
+              z-index: 1;
+            }
+            #nav-bar header{
+                font-size: 1.5rem;
+                font-style: italic;
+                margin-left: 10px;
+            }
+            #main-doc{
+              display: block;
+                position: relative;
+                margin-left: 25%;
+                
+            }
+            #nav-bar ul{
+                height: 80%;
+                left: 0;
+                margin-left: -10px;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            #nav-bar li{
+                width: 100%;
+                position: relative;
+                display: block;
+                padding: 5px 10px;
+                border-bottom: black solid 1px;
+                list-style: none;
+            }
+            #nav-bar a{
+                text-decoration: none;
+                color: black;
+                width: 100%;
+                display: block;
+            }
+@screen (max-width: 782px){
+  nav{
+    width:100%
+  }
+}
+            .main-section{
+                width: 100%;
+            }
+            section header{
+                font-size: 2rem;
+                margin: 10px;
+            }
+            section p{
+                padding-left: 40px;
+                padding-right: 20px;
+                justify-content: stretch;
+                text-align: justify;
+            }
+            section a{
+                text-decoration: none;
+                color: black;
+            }
+            .li-in-p{
+                margin-left: 50px;
+            }
+
+            figure{
+                justify-content: center;
+                text-align: center;
+            }
+            img{
+                width: 75%;
+                height: 350px;
+                margin: auto;
+                position: relative;
+            }
+            figcaption{
+                max-width: 600px;
+                width: 100%;
+                text-align: justify;
+                margin: auto;
+                font-size: 0.7rem;
+            }
+            span{
+                margin: 0 20px;
+            }
+            table{
+                margin: auto;
+                position: relative;
+                text-align: left;
+                width: 70%;          
+                border-collapse: collapse;
+            }
+            th{
+                border: 1px solid black;
+                padding-left: 3px;
+            }
+            td{
+                border: 1px solid black;
+                padding-left: 3px;
+                text-align: left;
+            }
+            .table-title{
+                width: 70%;
+                font-size: 0.7em;
+                margin: auto;
+                justify-content: center;
+                text-align: center;
+            }
+            .multi-data{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                text-align: left;
+                justify-content: space-evenly;
+                /* border: none; */
+            }
