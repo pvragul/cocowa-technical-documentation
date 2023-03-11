@@ -94,19 +94,19 @@
                     b) detection and exclusion. The first approach, 
                     tries tomotivate nodes to actively participate in the forwarding activ-ities. 
                     These approaches are usually based on virtual currencyand/or 
-                    game theory models <sup>[3], [4], [7], [34]</sup>. The detectionand exclusion approach is a 
+                    game theory models <sup><a href="#references">[3], [4], [7], [34]</a></sup>. The detectionand exclusion approach is a 
                     straight-forward way to copewith selfish nodes and several solutions have been 
-                    presented <sup>[2], [12], [17], [20]–[23], [26], [32]</sup>. In CoCoWa, we do notattempt to 
+                    presented <sup><a href="#references">[2], [12], [17], [20]–[23], [26], [32]</a></sup>. In CoCoWa, we do notattempt to 
                     implement any strategy to exclude selfish
                     nodesor to incentivize their participation; instead, we focus on thedetection of selfish nodes.
                 </p>
                 <p><span></span>
-                    The impact of node selfishness on MANETs has been stud-ied in <sup>[28]–[30]</sup>. 
-                    In <sup>[30]</sup> it is shown that when no selfishnessprevention mechanism is present, 
+                    The impact of node selfishness on MANETs has been stud-ied in <sup><a href="#references">[28]–[30]</a></sup>. 
+                    In <sup><a href="#references">[30]</a></sup> it is shown that when no selfishnessprevention mechanism is present, 
                     the packet delivery ratesbecome seriously degraded, from a rate of 80% when theselfish node ratio is 0, 
-                    to 30% when the selfish node ratiois 50%. The survey <sup>[29]</sup> shows similar 
+                    to 30% when the selfish node ratiois 50%. The survey <sup><a href="#references">[29]</a></sup> shows similar 
                     results: the numberof packet losses is increased by 500% when the selfish 
-                    noderatio increases from 0% to 40%. A more detailed study <sup>[28]</sup>shows that a moderate 
+                    noderatio increases from 0% to 40%. A more detailed study <sup><a href="#references">[28]</a></sup>shows that a moderate 
                     concentration of node selfishness(starting from a 20% level) has a huge impact on the 
                     overallperformance of MANETs, such as the average hop count,the number of packets dropped, 
                     the offered throughput, andthe probability of reachability. In DTNs, selfish nodes canseriously degrade 
@@ -121,7 +121,7 @@
                     mechanisms to detect misbehaving and selfish nodes. Essentially, 
                     watchdog systems overhear wireless traffic and analyse
                     it to decide whether neighbour nodes are behaving in a selfish
-                    manner <sup>[14]</sup>. When the watchdog detects a selfish node it is
+                    manner <sup><a href="#references">[14]</a></sup>. When the watchdog detects a selfish node it is
                     marked as a positive detection (or a negative detection, if it
                     is detected as a non selfish node). Nevertheless, watchdogs
                     can fail on this detection, generating false positives and false
@@ -152,7 +152,7 @@
                     goal of our approach is to reduce the detection time and to
                     improve the precision by reducing the effect of both false
                     negatives and false positives. Although some of the aforementioned papers 
-                    (such as <sup>[2] , [26]</sup>) introduced some degree of
+                    (such as <sup><a href="#references">[2] , [26]</a></sup>) introduced some degree of
                     collaboration on their watchdog schemes, the diffusion is very
                     costly since they are based on periodic message dissemination.
                 </p>
@@ -164,7 +164,7 @@
                     positive and negative detections, specially when it does not
                     match with the local watchdog detection. Another issue is the
                     case of malicious nodes. Thus, this paper extends our previous
-                    approaches <sup>[10]</sup>, <sup>[11]</sup> to also cope with malicious nodes using
+                    approaches <sup><a href="#references">[10]</a></sup>, <sup><a href="#references">[11]</a></sup> to also cope with malicious nodes using
                     a reputation scheme.
                 </p>
                 <p><span></span>
@@ -204,12 +204,12 @@
                     A selfish node usually denies packet forwarding in order to
                     save its own resources. This behaviour implies that a selfish
                     node neither participates in routing nor relays data packets
-                    <sup>[19]</sup>. A common technique to detect this selfish behaviour is
+                    <sup><a href="#references">[19]</a></sup>. A common technique to detect this selfish behaviour is
                     network monitoring using local watchdogs. A node’s watchdog
                     consists on overhearing the packets transmitted and received
                     by its neighbours in order to detect anomalies, such as the
                     ratio between packets received to packets being re-transmitted
-                    <sup>[13]</sup>. By using this technique, the local watchdog can generate
+                    <sup><a href="#references">[13]</a></sup>. By using this technique, the local watchdog can generate
                     a positive (or negative) detection in case the node is acting
                     selfishly (or not).
                 </p>
@@ -383,12 +383,12 @@
                     the individual pair distribution of all combinations of pairs
                     of nodes in the network. The individual pair distribution is
                     defined as the distribution of the time elapsed between two
-                    consecutive contacts between the same pair of nodes <sup>[25]</sup>.
+                    consecutive contacts between the same pair of nodes <sup><a href="#references">[25]</a></sup>.
                 </p>
                 <p><span></span>
                     The assumption that the aggregated inter-contact time follows an exponential distribution with rate λ has been shown
                     to hold in several mobility scenarios of both humans and
-                    vehicles <sup>[9], [21], [35]</sup>. For example, in <sup>[9]</sup> it is shown that, for
+                    vehicles <sup><a href="#references">[9], [21], [35]</a></sup>. For example, in <sup><a href="#references">[9]</a></sup> it is shown that, for
                     the random waypoint and random direction mobility models,
                     parameter λ is related to the mean speed of nodes v, through
                     an empirical expression.
@@ -397,20 +397,20 @@
                     There is some controversy about whether this exponential
                     distribution relates to real mobility patterns. Empirical results
                     have shown that the aggregated inter-contact time distribution 
-                    follows a power-law and has a long tail <sup>[6]</sup>, meaning that
+                    follows a power-law and has a long tail <sup><a href="#references">[6]</a></sup>, meaning that
                     there are some pairs of nodes that barely experience contact.
-                    In <sup>[5]</sup> it is shown that in a bounded domain, such as the
+                    In <sup><a href="#references">[5]</a></sup> it is shown that in a bounded domain, such as the
                     one selected along this paper, the inter-contact distribution is
                     exponential, but in an unbounded domain the distribution is
                     power-law. The dichotomy of this distribution is described in
-                    <sup>[16]</sup>: a truncated power law with exponential decay appearing
-                    in its tail after some cutoff point. A recent paper <sup>[25]</sup> presents
+                    <sup><a href="#references">[16]</a></sup>: a truncated power law with exponential decay appearing
+                    in its tail after some cutoff point. A recent paper <sup><a href="#references">[25]</a></sup> presents
                     the dependence between the individual pair distribution and
                     the aggregated distribution. It is stated that, starting from
                     the exponential individual pair distribution, the aggregated
                     is distributed according to a Pareto law. It also verifies the
                     dichotomy property of the aggregate distribution analytically.
-                    The work in <sup>[8]</sup> analysed some popular mobility traces and
+                    The work in <sup><a href="#references">[8]</a></sup> analysed some popular mobility traces and
                     found that over 85% of the individual pair distributions fit an
                     exponential distribution.
                 </p>
@@ -622,11 +622,11 @@
                     possible permutations of states ({(D, 0, ∗, ∗)}) that sum E.
                     It is easy to derive that 
                     <code>
-                        υ = P<sup>S</sup>
+                        υ = P<sup><a href="#references">S</a></sup>
                         (E) = 0.5(E + 1)(E + 2).
                         The number of transient states τ is obtained in a similar way:
-                        τ = (P<sup>S</sup>
-                        (D) − 1)P<sup>S</sup>
+                        τ = (P<sup><a href="#references">S</a></sup>
+                        (D) − 1)P<sup><a href="#references">S</a></sup>
                         (E). 
                     </code>
                     This model can be expressed using
@@ -648,7 +648,7 @@
                         Now, we derive the transition rates q<sub>ij</sub> . Given the state 
                         <code>
                             s<sub>i</sub> =
-                        (e<sub>p</sub>(t), e<sub>n</sub>(t), d<sub>p</sub>(t), d<sub>n</sub>(t))<sup>**</sup>
+                        (e<sub>p</sub>(t), e<sub>n</sub>(t), d<sub>p</sub>(t), d<sub>n</sub>(t))<sup><a href="#references">**</a></sup>
                         </code> 
                         , we have:
                     </p>
@@ -695,7 +695,7 @@
                             <sub>p</sub>(E − e<sub>p</sub> − e<sub>n</sub>).
                         </code>
                         <br>
-                        <sup>**</sup>For simplicity, we omit the time in the states.
+                        <sup><a href="#references">**</a></sup>For simplicity, we omit the time in the states.
                     </p>
                 </p>
                 <p><span></span>The second transition, e<sub>n</sub>+, is when a intermediate collaborative node changes from 
@@ -729,7 +729,7 @@
                     the overall overhead (or cost) O<sub>d</sub>. Starting with the detection
                     time, from the 4D-CTMC we can obtain how long it will take
                     for the process to be absorbed. Using the fundamental matrix
-                    N = −T<sup>-1</sup>
+                    N = −T<sup><a href="#references">-1</a></sup>
                     , we can obtain a vector t of the expected time
                     to absorption as t = Nv, where v is a column vector of
                     ones (v = [1, 1, . . . , 1]T
@@ -832,9 +832,9 @@
                     only on a reduction of the detection time). For the evaluations
                     that follow, we consider a λ value of 0.01 contact/s, which
                     has been shown to be a valid value in vehicular scenarios
-                    <sup>[35]</sup>. The following evaluations also consider the experimental
+                    <sup><a href="#references">[35]</a></sup>. The following evaluations also consider the experimental
                     ranges of several parameters obtained from previous works of
-                    our research group <sup>[14], [27]</sup>. In particular, the probability of
+                    our research group <sup><a href="#references">[14], [27]</a></sup>. In particular, the probability of
                     detection is low because the local watchdog needs enough
                     packets to generate a positive (or negative) detection of a
                     selfish node p<sub>d</sub> ∼ [0.1, 0.3], and the ratio of false negatives
@@ -879,7 +879,7 @@
                     with different probabilities of detection (p<sub>d</sub>), ranging from a
                     low detection ratio (0.1), typical of DTNs and Opportunistic
                     Networks, to greater detection ratios (0.3) typical of MANETs
-                    <sup>[14], [27]</sup>. We observe that, when increasing the degree of
+                    <sup><a href="#references">[14], [27]</a></sup>. We observe that, when increasing the degree of
                     collaboration from 0 to 0.2, the detection time is reduced
                     exponentially and the overhead is increased. The effect of
                     p<sub>d</sub> is the expected: for greater values of p<sub>d</sub>, the detection
@@ -1297,7 +1297,7 @@
                 </table>
                 <p class="table-title">
                     TABLE II: Description of contact traces. For the inter-contact rates (λ) we
-                    used the sames values of <sup>[21]</sup>.
+                    used the sames values of <sup><a href="#references">[21]</a></sup>.
                 </p>
                 <p><i><b>B. Real mobility scenarios</b></i><br>
                     <span></span>In this subsection we are going to evaluate CoCoWa using
@@ -1307,13 +1307,13 @@
                     to evaluate CoCoWa using both human and vehicular mobility
                     traces. In the following experiments we used some well known
                     real contact traces (see table II). The Cambridge mobility set
-                    trace <sup>[15]</sup> was gathered from a set of undergraduate students
+                    trace <sup><a href="#references">[15]</a></sup> was gathered from a set of undergraduate students
                     from the University of Cambridge carrying small devices
-                    (iMotes) in 2005. The Shanghai Taxis GPS Trace <sup>[35]</sup> was
+                    (iMotes) in 2005. The Shanghai Taxis GPS Trace <sup><a href="#references">[35]</a></sup> was
                     collected from 2100 taxis in Shanghai city during February of
                     2007. This trace does not contain the contacts (it contains GPS
                     locations), so a pre-process for obtaining the contact trace is
-                    needed. Following the method used in <sup>[35]</sup> we assume that
+                    needed. Following the method used in <sup><a href="#references">[35]</a></sup> we assume that
                     a contact occurs if both vehicles are within WiFi range (100
                     meters). The result of processing the previous mobility traces
                     is a contact trace.
@@ -1471,7 +1471,7 @@
                     <span></span>We now proceed by comparing the CoCoWa approach with
                     previous cooperative approaches that use periodic messages
                     for the diffusion of information about selfish node detections
-                    (such as the ones presented in <sup>[18], [24], [26]</sup>). Note that
+                    (such as the ones presented in <sup><a href="#references">[18], [24], [26]</a></sup>). Note that
                     this comparison focuses only on the diffusion protocol. If a
                     node has information about a positive (or negative) detection,
                     it will periodically broadcast a message with a given period 
@@ -1494,7 +1494,7 @@
                     = 5m/s, side-area = 1000 m, pause-interval = 1s and range
                     = 100m. Regarding CoCoWa, the watchdog parameters are
                     (p<sub>fp</sub> = 0.17, p<sub>fn</sub> = 0.08, p<sub>d</sub> = 0.11), that were obtained
-                    based on a set of real testbed experiments from <sup>[14]</sup>. The
+                    based on a set of real testbed experiments from <sup><a href="#references">[14]</a></sup>. The
                     remaining parameters are p<sub>c</sub> = 0.2, γ = 0.1, θ = δ = 1 and
                     there are no malicious nodes (M = 0).
                 </p>
@@ -1545,56 +1545,56 @@
                 <p><span></span>There are two main strategies to deal with selfish behaviour
                     in cooperative networks. The first approach tries to motivate
                     the nodes to actively participate in the forwarding activities.
-                    For example, in <sup>[3], [4]</sup> the authors presented a method using
-                    a virtual currency called nuglet. Zhong et al. <sup>[34]</sup> proposed 
+                    For example, in <sup><a href="#references">[3], [4]</a></sup> the authors presented a method using
+                    a virtual currency called nuglet. Zhong et al. <sup><a href="#references">[34]</a></sup> proposed 
                     SPRITE, a credit-based system to incentivate participation
                     of selfish nodes in MANET communication. These incentivation 
                     methods present several problems, such as the need
                     for some kind of implementation infrastructure to maintain
                     the accounting and they usually rely on the use of some
-                    kind of tamper-proof hardware. The COMMIT Protocol <sup>[7]</sup>
+                    kind of tamper-proof hardware. The COMMIT Protocol <sup><a href="#references">[7]</a></sup>
                     combines game-theoretic techniques to achieve truthfulness
                     and an incentivation payment scheme to reduce the impact of
                     selfish nodes on routing protocols. Regarding the detection and
                     exclusion approach, there are several solutions for MANETs
                     and DTNs. A first study about misbehaving nodes and how
-                    watchdogs can be used to detect them was introduced in <sup>[23]</sup>.
+                    watchdogs can be used to detect them was introduced in <sup><a href="#references">[23]</a></sup>.
                     The authors proposed a Watchdog and Pathrater over the DSR
                     protocol to detect non-forwarding nodes, maintaining a rating
-                    for every node. In <sup>[26]</sup> another scheme for detecting selfish
+                    for every node. In <sup><a href="#references">[26]</a></sup> another scheme for detecting selfish
                     nodes based on context aware information was proposed.
                 </p>
                 <p><span></span>In previous works it has been shown how some degree of
                     cooperation can improve the detection of selfish or misbehaving nodes. 
                     The CONFIDENT protocol was proposed in
-                    <sup>[2]</sup>, which combines a watchdog, reputation systems, bayesian
+                    <sup><a href="#references">[2]</a></sup>, which combines a watchdog, reputation systems, bayesian
                     filters and information obtained from a node and its neighbours
                     to securely detect misbehaving nodes. The system’s response
                     is to isolate those nodes from the network, punishing then
                     indefinitely. A distributed intrusion detection system (IDS) is
-                    introduced in <sup>[33]</sup>. In this approach if a node locally detects
+                    introduced in <sup><a href="#references">[33]</a></sup>. In this approach if a node locally detects
                     an intrusion with strong evidence, it can initiate a response However, 
                     if a node detects an anomaly with weak evidence, it
                     can initiate a cooperative global intrusion detection procedure.
                     A similar approach is the Mobile Intrusion Detection System
-                    described in <sup>[18]</sup>. In this case, local sensor ratings are periodically 
+                    described in <sup><a href="#references">[18]</a></sup>. In this case, local sensor ratings are periodically 
                     flooded throughout the network in order to obtain a
                     global rating for each misbehaving node. Another approach
-                    is CORE ”Collaborative Reputation Mechanism” <sup>[24]</sup>. The
+                    is CORE ”Collaborative Reputation Mechanism” <sup><a href="#references">[24]</a></sup>. The
                     CORE system is similar to the distributed IDS approaches described below. 
                     It consists in local observation using watchdogs
                     that are combined and distributed to obtain a reputation for
                     each node. This reputation is used to determine whether a node
                     is allowed to participate (otherwise, it is excluded). Another
-                    approach is OCEAN <sup>[1]</sup> where the reputation of a neighbour
+                    approach is OCEAN <sup><a href="#references">[1]</a></sup> where the reputation of a neighbour
                     is evaluated using only locally available information, avoiding
                     complex and potentially vulnerable techniques of reputation
                     propagation throughout the network. It is shown that, even
                     with direct neighbour observations, OCEAN performs almost
                     as well as those schemes that share second-hand reputation
-                    information. In <sup>[12]</sup> an analytical selfish model (which is
+                    information. In <sup><a href="#references">[12]</a></sup> an analytical selfish model (which is
                     tied specifically to the Ad hoc On-demand Distance Vector
-                    (AODV) routing protocol) is proposed. A recent work <sup>[32]</sup>,
+                    (AODV) routing protocol) is proposed. A recent work <sup><a href="#references">[32]</a></sup>,
                     introduces the Audit-based Misbehaviour Detection (AMD)
                     which isolates continuous and selective packet droppers. The
                     AMD system integrates reputation management, trustworthy
@@ -1602,21 +1602,21 @@
                     on behavioural audits. This scheme also collects first and
                     second-hand information for obtaining the reputation of nodes.
                 </p>
-                <p><span></span>More recently, papers have focused on DTNs. In <sup>[17]</sup>, the
+                <p><span></span>More recently, papers have focused on DTNs. In <sup><a href="#references">[17]</a></sup>, the
                     author introduces a model for DTN data relaying schemes
                     under the impact of node selfishness. A similar approach
-                    is presented in <sup>[21]</sup> that shows the effect of socially selfish behaviour. 
+                    is presented in <sup><a href="#references">[21]</a></sup> that shows the effect of socially selfish behaviour. 
                     Social selfishness is an extension of classical
                     selfishness (also called individual selfishness). A social selfish
                     node can cooperate with other nodes of the same group, and
                     it does not cooperate with other nodes outside the group.
                     The impact of social selfishness on routing in DTN has been
-                    studied in <sup>[20]</sup>.
+                    studied in <sup><a href="#references">[20]</a></sup>.
                 </p>
                 <p><span></span>Our approach presents similarities with the ones presented
-                    in <sup>[18], [24]</sup>. Nevertheless, these approaches do not evaluate
+                    in <sup><a href="#references">[18], [24]</a></sup>. Nevertheless, these approaches do not evaluate
                     the effect of false positives, false negatives and malicious
-                    nodes. For example, the approach in <sup>[24]</sup> only transmits
+                    nodes. For example, the approach in <sup><a href="#references">[24]</a></sup> only transmits
                     positive detections. The problem, as shown in the evaluation
                     sections, is that if a false positive is generated it can spread
                     this wrong information very quickly on the network, isolating
@@ -1624,7 +1624,7 @@
                     the diffusion of negative detections as well becomes necessary.
                     Another problem is the impact of colluding or malicious
                     nodes. Although a reputation system, as the one presented in
-                    <sup>[24]</sup>, can be useful to mitigate the effect of malicious nodes, it
+                    <sup><a href="#references">[24]</a></sup>, can be useful to mitigate the effect of malicious nodes, it
                     clearly depends on how are combined local and global ratings,
                     as shown in this paper. Another implementation issue is the
                     high imposed overhead due to the flooding process in order to
